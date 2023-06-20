@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import TrendingProductCart from '../shared/TrendingProductCart';
+import { IoIosArrowDropleft, IoIosArrowDroprightCircle } from 'react-icons/io';
 
 const TrendingProducts = () => {
     const [trendingProducts, setTrendingProducts] = useState([]);
@@ -27,7 +28,7 @@ const TrendingProducts = () => {
         <div>
             <h1 className="text-center text-4xl font-bold">Shop Our Trending Products</h1>
             <p className="text-center mt-6 text-xl">Life is hard enough already. Let us make it <br /> a little easier.</p>
-            <div className="mt-12">
+            <div className="mt-12 relative">
                 <ul className="flex justify-center gap-x-5 cursor-pointer">
                     <li className="underline">Fashion</li>
                     <li>Technology</li>
@@ -35,7 +36,11 @@ const TrendingProducts = () => {
                     <li>Food & Drink</li>
                 </ul>
             </div>
-            <div className="mt-28 flex justify-center gap-x-16">
+            <div className='absolute right-40 flex items-center text-2xl gap-2'>
+                <IoIosArrowDropleft />
+                <IoIosArrowDroprightCircle/>
+            </div>
+            <div className="mt-36 flex justify-center gap-x-16">
                 {trendingProducts.map(trendingProduct => (
                     <TrendingProductCart
                         key={trendingProduct.id}

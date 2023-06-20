@@ -5,6 +5,7 @@ import TrendingProducts from "./components/TrendingProducts"
 import Products from "./components/products"
 import Navbar from "./shared/Navbar"
 import Banner from "./components/Banner"
+import FeaturedProduct from "./components/FeaturedProduct"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Banner/>
       <TrendingProducts />
       <Products />
+      <FeaturedProduct/>
       <Brands/>
       <Testimonial/>
       <Footer/>

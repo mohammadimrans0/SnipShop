@@ -1,10 +1,10 @@
 # SnipShop Website
 
-This is a readme file for the E-Commerce website project. The project is a responsive and user-friendly e-commerce website built using modern web development technologies.
+This is a readme file for the SnipShop website project. The project is a responsive and user-friendly e-commerce website built using modern web development technologies.
 
 ## Live Site
 
-https://github.com/mohammadimrans0/pioneeralpha-jobtask
+https://pioneeralpha-jobtask.netlify.app
 
 ## Table of Contents
 
