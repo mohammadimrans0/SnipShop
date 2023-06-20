@@ -2,6 +2,10 @@
 
 This is a readme file for the E-Commerce website project. The project is a responsive and user-friendly e-commerce website built using modern web development technologies.
 
+## Live Site
+
+https://github.com/mohammadimrans0/pioneeralpha-jobtask
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -29,7 +33,7 @@ The E-Commerce Website project is a fully functional online shopping platform de
 
 ## Technologies
 
-The E-Commerce Website project is built using the following technologies:
+The SnipShop Website is built using the following technologies:
 
 - Frontend:
   - HTML5, CSS3, JavaScript
@@ -39,22 +43,21 @@ The E-Commerce Website project is built using the following technologies:
   - Node.js (JavaScript runtime)
   - Express.js (web application framework for Node.js)
   - MongoDB (NoSQL database for storing product and user information)
-  - Stripe (payment processing platform)
 - Deployment:
-  - Heroku (cloud platform for hosting the application)
+  - Netlify (cloud platform for hosting the application)
   - MongoDB Atlas (cloud database service)
 
 ## Setup
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/e-commerce-website.git`
-2. Navigate to the project directory: `cd e-commerce-website`
-3. Install the dependencies: `npm install`
+1. Clone the repository: `git clone https://github.com/mohammadimrans0/pioneeralpha-jobtask`
+2. Navigate to the project directory: `cd pioneeralpha-jobtask`
+3. Install the dependencies: `yarn install`
 4. Set up environment variables:
    - Create a `.env` file in the root directory.
    - Add necessary environment variables such as database connection details, Stripe API keys, etc.
-5. Run the application: `npm start`
+5. Run the application: `yarn dev`
 6. Open your browser and visit: `http://localhost:3000`
 
 ## Usage
@@ -76,4 +79,3 @@ If you would like to contribute to the codebase, please follow these steps:
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name`.
 3. Commit your changes: `git commit -m "Add feature/fix for XYZ"`.
 4. Push the branch to your forked repository: `git push origin feature/your-feature-name`.
-5. Open a
