@@ -4,7 +4,7 @@ This is a readme file for the SnipShop website project. The project is a respons
 
 ## Live Site
 
-https://pioneeralpha-jobtask.netlify.app
+https://snipshop1.netlify.app/
 
 ## Table of Contents
 
@@ -51,8 +51,8 @@ The SnipShop Website is built using the following technologies:
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/mohammadimrans0/pioneeralpha-jobtask`
-2. Navigate to the project directory: `cd pioneeralpha-jobtask`
+1. Clone the repository: `git clone https://github.com/mohammadimrans0/SnipShop`
+2. Navigate to the project directory: `cd SnipShop`
 3. Install the dependencies: `yarn install`
 4. Set up environment variables:
    - Create a `.env` file in the root directory.
@@ -73,7 +73,7 @@ To set up the project locally, follow these steps:
 
 Contributions to the E-Commerce Website project are welcome. If you encounter any issues or have suggestions for improvements, please submit them as GitHub issues in this repository.
 
-If you would like to contribute to the codebase, please follow these steps:
+If you would like to contribute to the code base, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature-name`.
